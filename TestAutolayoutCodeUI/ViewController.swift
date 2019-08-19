@@ -18,18 +18,40 @@ class ViewController: UIViewController {
         return localizingHeader
     }()
 
+    lazy var headerView2: HeaderView2 = {
+        let headerView2 = HeaderView2(forAutoLayout: ())
+        return headerView2
+    }()
+
     override func loadView() {
         super.loadView()
-        setupViews()
+        headerContainerHeightConstraint.isActive = false
+        setupView1()
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-    private func setupViews() {
+    private func setupView1() {
         headerContainer.addSubview(localizingHeader)
         localizingHeader.autoPinEdgesToSuperview(withInsets: .zero, excludingEdge: nil)
     }
+
+    private func setupView2() {
+        headerContainer.addSubview(headerView2)
+        headerView2.autoPinEdgesToSuperview(withInsets: .zero, excludingEdge: nil)
+        //headerContainerHeightConstraint.isActive = false
+    }
+
+    private func removeHeaderSubviewsView() {
+        headerContainer.subviews.map { $0.removeFromSuperview() }
+    }
+
+    @IBAction func action(_ sender: Any) {
+        removeHeaderSubviewsView()
+        setupView2()
+    }
+
 }
 

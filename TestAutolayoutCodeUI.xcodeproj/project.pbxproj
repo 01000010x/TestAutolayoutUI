@@ -14,6 +14,7 @@
 		1DE5BAE5230A7FB200885BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE5BAE3230A7FB200885BD7 /* LaunchScreen.storyboard */; };
 		1DE5BAED230A800F00885BD7 /* HeaderView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE5BAEC230A800F00885BD7 /* HeaderView1.swift */; };
 		1DE5BAEF230A803300885BD7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE5BAEE230A803300885BD7 /* UIView+Extensions.swift */; };
+		1DE5BAF1230A841400885BD7 /* HeaderView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE5BAF0230A841400885BD7 /* HeaderView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1DE5BAE6230A7FB200885BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE5BAEC230A800F00885BD7 /* HeaderView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView1.swift; sourceTree = "<group>"; };
 		1DE5BAEE230A803300885BD7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		1DE5BAF0230A841400885BD7 /* HeaderView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				1DE5BAE3230A7FB200885BD7 /* LaunchScreen.storyboard */,
 				1DE5BAE6230A7FB200885BD7 /* Info.plist */,
 				1DE5BAEC230A800F00885BD7 /* HeaderView1.swift */,
+				1DE5BAF0230A841400885BD7 /* HeaderView2.swift */,
 				1DE5BAEE230A803300885BD7 /* UIView+Extensions.swift */,
 			);
 			path = TestAutolayoutCodeUI;
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE5BAED230A800F00885BD7 /* HeaderView1.swift in Sources */,
+				1DE5BAF1230A841400885BD7 /* HeaderView2.swift in Sources */,
 				1DE5BADD230A7FAF00885BD7 /* ViewController.swift in Sources */,
 				1DE5BAEF230A803300885BD7 /* UIView+Extensions.swift in Sources */,
 				1DE5BADB230A7FAF00885BD7 /* AppDelegate.swift in Sources */,
