@@ -17,6 +17,7 @@ class HeaderView2: UIView {
         titleLabel.text = "Custom View klsjdflkas asldkfja sdflk asldkfj asldk alsdkf asldfk jaslkdf asldfkj asldfk asldfk a;lsdf asldf jalsdf a;ldfk asldfk jas;ldfk asldfk jaslkdfjalsdfjoieuorqiwe jrqioweuqowiuer qwoieru qweori qwepoi usdfklj as;ldfk asdfuoieufops difasdf opaisd foapsid fasid jlksa dlkfa sl;dkf jaosidufopaisduf opaisd fopaisd flkjd f;laksd fj;lasd fioausdfpiausdpf"
         titleLabel.textAlignment = .left
         titleLabel.lineBreakMode = .byWordWrapping
+        titleLabel.numberOfLines = 0
         titleLabel.sizeToFit()
         return titleLabel
     }()
